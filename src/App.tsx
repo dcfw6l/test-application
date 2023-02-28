@@ -14,6 +14,7 @@ function App() {
       <Link className="menuItems" to="/"> Főoldal</Link>
       <Link className="menuItems" to="/Order"> Rendelés</Link>
       <Link className="menuItems" to="/Contact"> Kapcsolat</Link>
+      <Link className="menuItems" to="/SziszkePage"> Szisz gyakorlás</Link>
       
       <Route path="/" element={<Home />} />
         
