@@ -6,7 +6,7 @@ export class Home extends React.Component<{},{}> {
 render(){
     return <div className="homeDesign">
         
-        <h1>Üdvözöljük az első projekt weboldalán! tádá</h1>        
+        <h1>Üdvözöljük az első projekt weboldalán! first commit </h1>        
 
         <h3>What is Lorem Ipsum?
             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
