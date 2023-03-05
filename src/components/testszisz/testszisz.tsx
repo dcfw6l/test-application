@@ -1,14 +1,15 @@
 import React from "react";
 import "./testszisz.css";
 
+
 export class TestSzisz extends React.Component<{}, {}> {
 
 render(){
 
     return <div className="headerContainersajat">    
                 <div className="titleTextsajat">Szász Szilárd</div>     
-                <div className="valamiSzovegClass"><b>valami szöveg</b></div>  
-                <img src="szilard.jpg" alt="Legnagyobb sztár"></img>
+                <div className="valamiSzovegClass"><b>valami szöveg</b></div>
+                <img src="szilard.jpg"  alt="Legnagyobb sztár"></img>
             <div className="contactContainerForTable_sajat">
             <table style={{width: '80%'}}>        
             <thead>
