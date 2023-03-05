@@ -6,19 +6,18 @@ export class DartsOldal extends React.Component<{}, {}> {
 
     
     render(){
+        const ertek = 501;
+        const inputLeft = document.getElementById('inputLeft');
+        const inputRight = document.getElementById('inputRight');
 
-      const numberInput = document.getElementById("number");
-      const result = document.getElementById("result");
-
-
-        return <div className="container">
-        <div className="column left">
-        <input placeholder="Név" className="input" name="text" type="text"></input>
-          <h1 className="header">501 - <input type="number" id="inputLeft" /></h1>
+        return <div className="container"> 
+          <div className="column left">
+            <input placeholder="Név" className="input" name="text" type="text"></input>
+              <h1 className="header">{ertek} - <input type="number" id="inputLeft" /></h1>
         </div>
         <div className="column right">
           <input placeholder="Név" className="input" name="text" type="text"></input>
-          <h1 className="header">501 - <input type="number" id="inputRight" /></h1>
+          <h1 className="header">{ertek} - <input type="number" id="inputRight" /></h1>
         </div>
       </div>
 
